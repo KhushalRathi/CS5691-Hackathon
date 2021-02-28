@@ -43,12 +43,12 @@ from catboost import Pool, CatBoostClassifier
 # In[2]:
 
 
-tours_convoy=pd.read_csv('../../data/tour_convoy.csv')
-bikers=pd.read_csv('../../data/bikers.csv')
-bikers_net=pd.read_csv('../../data/bikers_network.csv')
-train_data=pd.read_csv('../../data/train.csv')
-test_data=pd.read_csv('../../data/test.csv')
-tours=pd.read_csv('../../data/tours.csv')
+tours_convoy=pd.read_csv('tour_convoy.csv')
+bikers=pd.read_csv('bikers.csv')
+bikers_net=pd.read_csv('data/bikers_network.csv')
+train_data=pd.read_csv('data/train.csv')
+test_data=pd.read_csv('data/test.csv')
+tours=pd.read_csv('data/tours.csv')
 tours.rename(columns={'biker_id': 'organizer'}, inplace=True)
 
 
